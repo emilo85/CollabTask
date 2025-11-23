@@ -13,6 +13,7 @@ app.use(express.json());
 
 app.use("/", homeRoutes);
 app.use("/api/message", homeRoutes);
+
 // app.get("/api/message", (req, res) => {
 //   res.json({ message: "Hello from the server" });
 // });
